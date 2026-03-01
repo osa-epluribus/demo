@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Globalmantics sells audio and video CDs">
+    <title>Globalmantics - Products</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+       
+        .globo-product {
+            margin-bottom: 3rem;
+            padding: 1rem;
+            text-align: left !important;
+            width: 80%;
+        }
+
+        .globo-product .globo-product-title, .globo-product h3  {
+            /* your code here */
+        }
+
+        .globo-product .globo-product-image, .globo-product .globo-product-video {
+            width: 100%;
+            height: 300px;
+        }
+
+        .globo-audio {
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          text-align: left;
+        }
+     
+       
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div class="globo-top-header">
+            <h1>
+                <b>Globalmantics</b>
+                <small id="caption">Your home of CDs...</small>
+            </h1>
+        </div>
+        <div class="container">
+            <nav class="globo-navbar">
+                <div>
+                    <a href="index.html">
+                        <img src="images/logo.png" id="logo" alt="logo"> 
+                    </a>
+                </div>
+                <ul class="globo-navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <!-- Assignment 1: Create the about page -->
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a class="active"  href="products.html">Products</a></li>
+                    <!-- Bookmarking -->
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="jumbo-hero">
+            <div class="container">
+                <p>Products</p>
+            </div>
+        </section>
+        <div class="container">
+            <p class="breadcrumb">
+                <a href="index.html">Home</a>/&nbsp;
+                <a href="#" class="active">product</a>
+            </p>
+        </div>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-100">
+                        <div class="globo-product polaroid">
+                            <h2 class="globo-product-title">Product title</h2>
+                            <img class="globo-product-image" src="images/product.PNG" alt="Product Image">
+                            <h3>Description</h3>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam ut recusandae distinctio enim blanditiis. Beatae laudantium aut dicta aperiam itaque, quo consequuntur ducimus adipisci atque cumque illum magnam corrupti?</p>
+                            <p>Price: 5090 dollars</p>
+                        </div>
+                        <div class="globo-product polaroid">
+                            <h2 class="globo-product-title">Product title</h2>
+                            <img class="globo-product-image" src="images/product.PNG" alt="Product Image">
+                            <h3>Description</h3>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam ut recusandae distinctio enim blanditiis. Beatae laudantium aut dicta aperiam itaque, quo consequuntur ducimus adipisci atque cumque illum magnam corrupti?</p>
+                            <p>Price: 5090 dollars</p>
+                        </div>
+                        <div class="globo-product polaroid">
+                            <h2 class="globo-product-title">Product title</h2>
+                            <img class="globo-product-image" src="images/product.PNG" alt="Product Image">
+                            <h3>Description</h3>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam ut recusandae distinctio enim blanditiis. Beatae laudantium aut dicta aperiam itaque, quo consequuntur ducimus adipisci atque cumque illum magnam corrupti?</p>
+                            <p>Price: 5090 dollars</p>
+                        </div>
+                        <div class="globo-product polaroid">
+                            <h2 class="globo-product-title">Product title</h2>
+                            <img class="globo-product-image" src="images/product.PNG" alt="Product Image">
+                            <h3>Description</h3>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam ut recusandae distinctio enim blanditiis. Beatae laudantium aut dicta aperiam itaque, quo consequuntur ducimus adipisci atque cumque illum magnam corrupti?</p>
+                            <p>Price: 5090 dollars</p>
+                        </div>
+                        <div class="globo-product polaroid">
+                            <h2 class="globo-product-title">Product title</h2>
+                            <!-- The video element -->
+                            <video class="globo-product-video" controls poster="images/product.PNG">
+                                <source src="videos/A Silent Voice (2016).mp4" type="video/mp4">
+                                    <!-- Assuming we have these videos -->
+                                <source src="videos/A Silent Voice (2016).wav" type="video/wav">
+                                <source src="videos/A Silent Voice (2016).ogg" type="video/ogg">
+                                <p>your browser cannot play this video</p>
+                            </video>
+                            <h3>Description</h3>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam ut recusandae distinctio enim blanditiis. Beatae laudantium aut dicta aperiam itaque, quo consequuntur ducimus adipisci atque cumque illum magnam corrupti?</p>
+                            <p>Price: 5090 dollars</p>
+                            <hr>
+                            <div class="globo-audio">
+                                <div>
+                                    <audio controls  src="audio/Demi_Lovato_Heart_Attack.mp3"></audio>
+                                </div>
+                                 <p>Listen to the audio above for more information</p>
+                            </div>
+            
+                            <!-- <audio>
+                                <source src="" type="">
+                            </audio> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="globo-footer">
+        <section class="row" style="padding: 0 20px">
+           <div class="col-50">
+               <h3>Globalmantics</h3>
+               <p style="font-size: 16px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellat dolores accusamus cumque ea dicta blanditiis sunt voluptates dolorem repellendus maxime delectus nemo autem, deserunt voluptate aliquam ducimus debitis iste!</p> 
+               <ul class="social-links">
+                   <li><a href="#">Facebook</a></li>
+                   <li><a href="#">Google</a></li>
+                   <li><a href="#">Twitter</a></li>
+                   <li><a href="#">Instagram</a></li>
+               </ul>
+            </div>
+            <div class="col-25">
+               <h3>Quick Links</h3>
+               <nav>
+                   <ul class="footer-links">
+                       <li><a href="#">Home</a></li>
+                       <li><a href="#">About</a></li>
+                       <li><a href="#">Services</a></li>
+                       <li><a href="#">Products</a></li>
+                       <li><a href="#">Contact</a></li>
+                       <li><a href="#">Login</a></li>
+                       <li><a href="#">Register</a></li>
+                       <li><a href="#">Privacy policy</a></li>
+                       <li><a href="#">Terms and Conditions</a></li>
+                   </ul>
+               </nav>
+            </div>
+            <div class="col-25">
+               <h3>Products</h3>
+               <nav>
+                   <ul class="footer-links">
+                       <li><a href="#">Cds</a></li>
+                       <li><a href="#">Cases</a></li>
+                       <li><a href="#">Tapes</a></li>
+                       <li><a href="#">Signed CDs</a></li>
+                       <li><a href="#">Video Player</a></li>
+                       <li><a href="#">Audio Player</a></li>
+                   </ul>
+               </nav>
+            </div>
+        </section>
+        <section class="copyright">
+            <div>&copy; Globalmantics 2020</div>
+        </section>
+    </footer>
+    <script>
+        // descriptions is a NodeList which is a type of array
+        const descriptions = document.querySelectorAll('.description');
+        
+        // for loop: old way of looping through an array
+        // still useful for strings
+        // for (let index = 0; index < descriptions.length; index++) {
+        //     const element = descriptions[index];
+        //     // the textContent property gives us the content of an element
+        //     // console.log(element.textContent.length);
+        //     const shortenedString = element.textContent.substring(0, 100);
+        //     element.textContent = shortenedString + '...';
+        // }
+
+        descriptions.forEach(element => {
+            const shortenedString = element.textContent.substring(0, 100);
+            element.textContent = shortenedString + '...';
+        })
+
+        // document.body.style.backgroundColor = "red";
+        // document.body.style.color = "white";
+
+        // const globoProducts = document.querySelectorAll('.globo-product.polaroid');
+        // console.log(globoProducts);
+        
+        // // use Array.forEach as the new way of looping through arrays
+        // globoProducts.forEach( element => {
+        //     element.style.backgroundColor = "#993300";
+        //     element.style.color = "white";
+        // })
+        
+    </script>
+</body>
+</html>

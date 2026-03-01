@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+
+    <style>
+        /* descendant selector (space) */
+
+        div p {
+            background: blue;
+            color: white;
+        }
+
+         /* Direct child selector (>) */
+
+        div > p {
+            color: #ff0000;
+            background: #ffffff;
+        }
+
+        /* Adjacent sibling selector (+) */
+
+        div.second + div.third p {
+            color: #312140;
+        }
+
+        div p:last-child {
+            background: #117700;
+            color: #ffffff;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Direct child selector -->
+    <div class="first">
+        <p>
+            lorem 1
+            <span>This is descendant of the first div</span>
+        </p>
+        <p>
+            <p>This is another p</p>
+        </p>
+    </div>
+    <div class="second">
+        <p>lorem 2</p>
+    </div>
+    <div class="third">
+        <p>lorem 3</p>
+    </div>
+    <div class="third">
+        <p>lorem 3</p>
+    </div>
+    <div class="fourth">
+        <p>lorem 4</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,237 @@
+/* ================== General styles ====================  */
+
+/* Remove padding and margin from all element */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-weight: normal; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem;
+    color: #222222;
+}
+
+ <div class= "col-50" style="background: darkgray;">Image or Map goes here</div>
+                    <!-- The bookmark for contact works because of the id here -
+/* margin: 0; all sides */
+/* margin: 0px 1px; top and bottom 0px while left and right 1px */
+/* margin: 0px 1px 2px top 0px, left and right 1px and bottom 2px */
+/* margin: 0px 1px 2px 4px; top 0px, right 1px, bottom 2px, left 4px */
+
+h1, h2, h3, h4, h5, h6 {
+    /* margin-top: 2rem;
+    margin-bottom: 2rem; */
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+
+a {
+    color: #140606; 
+}
+
+
+/* ================== Header ====================  */
+
+#header {
+    padding-bottom: 0.5rem;
+}
+.globo-top-header {
+    text-align: center;
+    background-color: #efefef;
+}
+
+.globo-top-header > h1 {
+   margin: 0;
+}
+.globo-top-header > h1 #caption {
+   font-size: 14px;
+   font-weight: normal;
+}
+
+.globo-navbar {
+    display: flex;
+    display: -webkit-flex;
+    padding-top: 1rem;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.globo-navbar-nav {
+    display: flex;
+    display: -webkit-flex;
+    list-style-type: none;
+}
+
+.globo-navbar-nav > li {
+    padding-left: 1.5rem;
+}
+
+.globo-navbar-nav > li > a {
+    text-decoration: none; /* remove the underline */
+    padding: 1rem 0rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.globo-navbar-nav > li > a:hover {
+    color: #aa1111;
+    border-bottom: 2px solid grey;
+}
+
+.globo-navbar-nav > li > a.active {
+    border-bottom: 3px solid grey;
+}
+
+/*  ===================== Hero ======================== */
+
+.globo-hero {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/hero.PNG);
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbo-hero {
+    background: #666;
+    color: white;
+    font-size: 18px;
+    padding: 30px 0;
+    text-transform: uppercase;
+ }
+
+ .breadcrumb {
+     background: #aaaaaa;
+     margin: 2rem 0rem 4rem;
+     border-radius: 20px;
+     padding: 10px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .breadcrumb a {
+     padding-right: 5px;
+     text-decoration: none;
+ }
+
+ .breadcrumb a.active {
+     padding-right: 5px;
+     color: #aa1111;
+ }
+
+/* ================ Sections =====================  */
+
+/* Layouts */
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col-25 {
+  width: 25%;
+  margin-left: 8px;
+}
+.col-33 {
+    width: 33.33%;
+    margin-left: 8px;
+}
+
+.col-50 {
+    width: 50%;
+    margin-left: 8px;
+}
+
+.section {
+  padding: 70px 0px;
+}
+.section .heading-2 {
+  text-align: center;
+}
+
+.polaroid {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.polaroid p {
+    padding: 10px;
+}
+  
+
+#contact {
+    padding-left: 2rem;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+
+button {
+    padding: 12px 8px;
+    background-color: #aa1111;
+    color: #ffffff;
+    border: 0;
+    width: 50%;
+    font-size: 18px;
+}
+
+.globo-footer {
+    background-color: #efefef;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.globo-footer .footer-links {
+    list-style: none;
+}
+
+.globo-footer .footer-links > li  {
+    padding-bottom: 10px;
+}
+
+.globo-footer .footer-links > li > a {
+    text-decoration: none;
+}
+
+.globo-footer .footer-links > li > a:hover {
+    color: #aa1111; /* remove the underline */
+    border-bottom: 2px solid grey;
+}
+
+.globo-footer .social-links {
+    list-style: none; 
+    display: flex;
+    padding-top: 20px;
+}
+
+.globo-footer .social-links > li {
+    padding-right: 10px;
+}
+
+.globo-footer .copyright {
+    text-align: center;
+    padding: 1rem 0;
+    color: white;
+    background: #666666;
+}
+

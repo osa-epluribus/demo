@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Globalmantics sells audio and video CDs">
+    <title>Globalmantics - Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="globo-top-header">
+            <h1>
+                <b>Globalmantics</b>
+                <small id="caption">Your home of CDs...</small>
+            </h1>
+        </div>
+        <div class="container">
+            <nav class="globo-navbar">
+                <div>
+                    <a href="index.html">
+                        <img src="images/logo.png" id="logo" alt="logo"> 
+                    </a>
+                </div>
+                <ul class="globo-navbar-nav">
+                    <li><a  href="index.html">Home</a></li>
+                    <!-- Assignment 1: Create the about page -->
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <!-- Bookmarking -->
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a class="active" href="register.html">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="jumbo-hero">
+            <div class="container">
+                <p>Register</p>
+            </div>
+        </section>
+        <div class="container">
+            <p class="breadcrumb">
+                <a href="index.html">Home</a>/&nbsp;
+                <a href="#" class="active">Register</a>
+            </p>
+        </div>
+            
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-50" style="margin:auto;">
+            <h3>Register Here</h3>
+            <form action="#" method="post">
+                <div>
+                    <!-- The for value of the label must match the id value of the input -->
+                    <label for="username">Username</label>
+                    <input id="username" type="text" name="username">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email">
+                </div>
+                <div>
+                    <label for="password">password</label>
+                    <input id="password" type="email" name="password">
+                </div>
+                <div>
+                    <label for="password_confirmation">Confirm password</label>
+                    <input id="password_confirmation" type="password" name="password_confirmation">
+                </div>
+                <div>
+                    <label for="age">Select age</label>
+                    <input id="age" type="range" name="age" min="18" max="60">
+                </div>
+                <div>
+                    <label for="terms">
+                        <input id="terms" type="checkbox" name="terms" checked>
+                        By using this site you agree to our <a href="terms.html">terms</a>
+                    </label>
+                </div>
+                <button>Register</button>
+            </form>
+            <!-- Explore the different input types -->
+            <div>
+                <p>
+                    Already have an account? <a href="login.html">Sign In</a>
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="globo-footer">
+        <section class="row" style="padding: 0 20px">
+           <div class="col-50" style="margin: auto;">
+               <h3>Globalmantics</h3>
+               <p style="font-size: 16px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellat dolores accusamus cumque ea dicta blanditiis sunt voluptates dolorem repellendus maxime delectus nemo autem, deserunt voluptate aliquam ducimus debitis iste!</p> 
+               <ul class="social-links">
+                   <li><a href="#">Facebook</a></li>
+                   <li><a href="#">Google</a></li>
+                   <li><a href="#">Twitter</a></li>
+                   <li><a href="#">Instagram</a></li>
+               </ul>
+            </div>
+            <div class="col-25">
+               <h3>Quick Links</h3>
+               <nav>
+                   <ul class="footer-links">
+                       <li><a href="#">Home</a></li>
+                       <li><a href="#">About</a></li>
+                       <li><a href="#">Services</a></li>
+                       <li><a href="#">Products</a></li>
+                       <li><a href="#">Contact</a></li>
+                       <li><a href="#">Login</a></li>
+                       <li><a href="#">Register</a></li>
+                       <li><a href="#">Privacy policy</a></li>
+                       <li><a href="#">Terms and Conditions</a></li>
+                   </ul>
+               </nav>
+            </div>
+            <div class="col-25">
+               <h3>Products</h3>
+               <nav>
+                   <ul class="footer-links">
+                       <li><a href="#">Cds</a></li>
+                       <li><a href="#">Cases</a></li>
+                       <li><a href="#">Tapes</a></li>
+                       <li><a href="#">Signed CDs</a></li>
+                       <li><a href="#">Video Player</a></li>
+                       <li><a href="#">Audio Player</a></li>
+                   </ul>
+               </nav>
+            </div>
+        </section>
+        <section class="copyright">
+            <div>&copy; Globalmantics 2020</div>
+        </section>
+    </footer>
+</body>
+</html>
